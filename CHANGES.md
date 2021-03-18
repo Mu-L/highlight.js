@@ -12,6 +12,9 @@ New Languages:
 
 Language grammar improvements:
 
+- fix(python) allow keywords immediately following numbers (#2985) [Josh Goebel][]
+- fix(xml) char immediately following tag close mis-highlighted (#3044) [Josh Goebel][]
+- fix(ruby) fix `defined?()` mis-highlighted as `def` (#3025) [Josh Goebel][]
 - fix(c) comments after `#include <str>` blocks (#3041) [Josh Goebel][]
 - fix(cpp) comments after `#include <str>` blocks (#3041) [Josh Goebel][]
 - enh(cpp) Highlight all function dispatches (#3005) [Josh Goebel][]
@@ -28,6 +31,7 @@ Language grammar improvements:
 - enh(css) Add `font-smoothing` to attributes list for CSS (#3027) [AndyKIron][]
 - fix(python) Highlight `print` and `exec` as a builtin (#1468) [Samuel Colvin][]
 - fix(csharp) Fix unit being highlighted instead of uint (#3046) [Spacehamster][]
+- enh(swift) add async/await keywords (#3048) [Bradley Mackey][]
 
 Deprecations:
 
